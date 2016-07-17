@@ -7,51 +7,6 @@
     "Year": {
       "type": "year"
     }, 
-    "_of_missing_data_service_delivery": {
-      "choropleth": [
-        {
-          "color": "#42c6da", 
-          "label": "equal to 0", 
-          "range": [
-            0, 
-            0
-          ]
-        }, 
-        {
-          "color": "#3cb9ec", 
-          "label": "between 0 and 50", 
-          "range": [
-            0, 
-            50
-          ]
-        }, 
-        {
-          "color": "#42a5f5", 
-          "label": "between 50 and 100", 
-          "range": [
-            50, 
-            100
-          ]
-        }, 
-        {
-          "color": "#4a80df", 
-          "label": "equal to 100", 
-          "range": [
-            100, 
-            100
-          ]
-        }
-      ], 
-      "description": "Percentage of missing data among the following indicators: % of teacher trained (in primary and lower secondary) and Pupil Teacher Ratio (in primary and lower secondary).", 
-      "display": "{{ % of missing data, service delivery (%) }}%", 
-      "max": 100, 
-      "min": 0, 
-      "name": "% of missing data, service delivery (%)", 
-      "precision": 2, 
-      "source_file": "% of missing data, service delivery (%).csv", 
-      "tooltip": "{{ % of missing data, service delivery (%) }}%", 
-      "type": "number"
-    }, 
     "aid_committed_for_basic_education_as__of_gdp": {
       "choropleth": [
         {
